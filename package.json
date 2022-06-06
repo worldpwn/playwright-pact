@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/worldpwn/playwright-pact#readme",
   "devDependencies": {
+    "@pact-foundation/pact": "^9.17.3",
     "@playwright/test": "^1.22.2"
   }
 }
