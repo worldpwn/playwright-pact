@@ -58,14 +58,5 @@ test("[CONSUMER] Gateway API Should call ProductService and get products", async
     })
 
     var response = await providerService.getProducts(providerMock.mockService.baseUrl)
-    // // const providerUrl = 'http://localhost:5053';
-    // const consumerUrl = 'http://localhost:5054';
-    // var response = await axios.request({
-    //     method: "GET",
-    //     baseURL: providerMock.mockService.baseUrl,
-    //     url: "/products",
-    //     headers: { "Content-Type": "application/json" },
-    // });
-
     await expect(response.data).toStrictEqual(EXPECTED_BODY);
 })
