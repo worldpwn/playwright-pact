@@ -1,0 +1,23 @@
+{
+  "name": "playwright-pact",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/worldpwn/playwright-pact.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/worldpwn/playwright-pact/issues"
+  },
+  "homepage": "https://github.com/worldpwn/playwright-pact#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.22.2"
+  }
+}
