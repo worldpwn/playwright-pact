@@ -1,0 +1,38 @@
+{
+  "consumer": {
+    "name": "GatewayWebAPI"
+  },
+  "provider": {
+    "name": "ProductService"
+  },
+  "interactions": [
+    {
+      "description": "a request for products",
+      "providerState": "i have a list of products",
+      "request": {
+        "method": "GET",
+        "path": "/products"
+      },
+      "response": {
+        "status": 200,
+        "headers": {
+        },
+        "body": [
+          {
+            "id": 1,
+            "name": "product_1"
+          },
+          {
+            "id": 2,
+            "name": "product_2"
+          }
+        ]
+      }
+    }
+  ],
+  "metadata": {
+    "pactSpecification": {
+      "version": "2.0.0"
+    }
+  }
+}
